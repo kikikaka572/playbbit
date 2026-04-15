@@ -194,6 +194,7 @@ body::before {
   border-radius: 50%;
   border: 1px solid var(--dim);
   transition: all 0.3s;
+  pointer-events: none;
 }
 
 .toggle-btn::after {
@@ -206,6 +207,7 @@ body::before {
   font-size: 28px;
   color: var(--dim);
   transition: all 0.3s;
+  pointer-events: none;
 }
 
 .toggle-btn.on {
